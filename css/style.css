@@ -1,0 +1,151 @@
+body{
+  background:url(https://images.unsplash.com/photo-1506792389040-ef95e711fb4b?w=1658&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) center center fixed;
+  background-size: 100% ;
+}
+.box {
+  width: 118px;
+  height: 118px;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight:100;
+  text-align: center;
+  cursor: pointer;
+}
+.container{
+  width: 420px !important;
+  height: 540px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 20px auto 0 auto;
+  overflow: hidden;
+  box-shadow:1px 1px 50px black;
+}
+#playField {
+  width: 360px;
+  height: 360px;
+  margin: 30px;
+}
+.bottom {
+  border-bottom: 2px solid #bdbdbd;
+}
+.right {
+  border-right: 2px solid #bdbdbd;
+}
+h1{
+  letter-spacing: 9px;
+  text-align:center;
+  font-weight:200 !important;
+  padding:0px;
+  text-shadow: 9px 8px 5px #000000;
+}
+
+.row{
+  text-align:center;
+  margin-top:-15px;
+  margin:0 !important;
+
+}
+#playO{
+  margin:22px;
+  width: 80px;
+  height: 80px;
+
+}
+#playX{
+  width: 80px;
+  height: 80px;
+  margin:22px;
+
+}
+
+.fa-circle-o, .fa-times{
+  padding:20px;
+}
+.rowBottom{
+  padding:23px;
+}
+#controls{
+  color: white;
+  background-color:#7fadf4;
+  width: 430px;
+  height: 100%;
+  margin-left:-20px;
+}
+#bottom{
+  padding-left:35px;
+
+}
+#play-label{
+  margin:9px;
+  font-size:42px;
+  padding-top:22px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align:center;
+}
+#charging{
+  color:#4bf442;
+  margin: 50px 0px 10px;
+  font-size:32px;
+  position: absolute;
+  left: 1390px;
+
+  
+}
+
+#face{
+  color:red;
+  letter-spacing: 9px;
+  text-align:center;
+  font-size:45px;
+}
+.X{
+  color:#3e77e8;
+}
+.O{
+  color:#57ea23;
+}
+#myModal{
+  color:blue;
+  width:512px;
+  font-family:"Amatic SC";
+}
+
+.btn-3d {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: white;
+  margin: 20px 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: top .01s linear;
+  text-shadow: 0 0px 0 rgba(0,0,0,0.15);
+  
+}
+
+.btn-3d.blue:hover   {background-color: #699DD1;}
+
+.btn-3d:active {
+  top: 9px;
+}
+.btn-3d.blue {
+  background-color: #6DA2D9;  
+}
+.btn-3d.blue:active {
+  box-shadow: 0 0 0 1px #6191C2 inset,
+    0 0 0 2px rgba(255,255,255,0.15) 
+
+}
+.end{
+   color:gold;
+   text-align:center;
+   font-family:"Amatic SC";
+   font-size:30px;
+   text-decoration: none;
+ 
+  
+   
+     
+}
