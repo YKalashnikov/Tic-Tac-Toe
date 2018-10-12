@@ -1,7 +1,7 @@
 <img src='https://github.com/YKalashnikov/Tic-Tac-Toe/blob/gh-pages/ticTac.gif'/>
 
 ➜ [Demo](https://ykalashnikov.github.io/Tic-Tac-Toe/)
-➜ [Demo](https://my-local-weather.netlify.com/)
+
 
 
 <h1 align="center">What is it?</h1>
